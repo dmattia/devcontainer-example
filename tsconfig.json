@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [],
+    "files": [],
+    "references": [
+      { "path": "frontend" },
+      { "path": "infra" },
+      { "path": "server" },
+      { "path": "utils" },
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "@onboarding/root",
+  "packageManager": "yarn@4.7.0",
+  "resolutions": {
+    "@pulumi/pulumi": "npm:@transcend-io/pulumi@=1.0.1"
+  },
+  "workspaces": [
+    "frontend",
+    "infra",
+    "server",
+    "utils"
+  ],
+  "devDependencies": {
+    "typescript": "=4.4.4"
+  }
+}
